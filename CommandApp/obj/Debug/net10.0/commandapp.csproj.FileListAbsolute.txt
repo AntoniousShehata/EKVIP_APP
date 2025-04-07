@@ -12,3 +12,4 @@ D:\EKVIP_APP\CommandApp\obj\Debug\net10.0\refint\commandapp.dll
 D:\EKVIP_APP\CommandApp\obj\Debug\net10.0\commandapp.pdb
 D:\EKVIP_APP\CommandApp\obj\Debug\net10.0\commandapp.genruntimeconfig.cache
 D:\EKVIP_APP\CommandApp\obj\Debug\net10.0\ref\commandapp.dll
+D:\EKVIP_APP\CommandApp\obj\Debug\net10.0\commandapp.sourcelink.json

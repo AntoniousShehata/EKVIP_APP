@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("commandapp")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e1fe4e2072e7cb4b92b7204b1def9a27d6f4bfbd")]
 [assembly: System.Reflection.AssemblyProductAttribute("commandapp")]
 [assembly: System.Reflection.AssemblyTitleAttribute("commandapp")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
