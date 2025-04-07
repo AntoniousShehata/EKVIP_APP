@@ -23,6 +23,9 @@ namespace CommandApp
                 ICommand command = input switch
                 {
                     "increment" => new IncrementCommand(),
+                    "decrement" => new DecrementCommand(),
+                    "double" => new DoubleCommand(),
+                    "randadd" => new RandAddCommand(),
                     "undo" => null, 
                     _ => null
                 };
@@ -46,7 +49,7 @@ namespace CommandApp
                 }
                 else
                 {
-                    Console.WriteLine("wrong command.");
+                    Console.WriteLine("wrong command. Please choose one valid command from(Increment/Decrement/Double/RandAdd/Undo).");
                 }
             }
         }
