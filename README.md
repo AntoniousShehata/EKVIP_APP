@@ -50,7 +50,8 @@ dotnet --version
 - Current result: 2
 > Decrement
 - Current result: 1
-
+> RandAdd
+- Current result: 1 + random number (6): 7
 ---
 
 ## 🧱 Design Patterns & Data Structures
@@ -81,7 +82,7 @@ Why a stack?
 ## 📌 Progress Status
 
 - ✅ Initial project and solution structure created
-- ✅ Projects added: `CommandApp`
+- ✅ Projects added: `CommandApp` and `CommandApp.Tests`
 - ✅ Command classes implemented: `IncrementCommand`, `DecrementCommand`, `DoubleCommand`, `RandAddCommand`
 - ✅ `ICommand` interface added
 - ✅ `CommandContext.cs` added to manage execution and command stack
