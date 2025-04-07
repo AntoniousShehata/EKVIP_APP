@@ -73,6 +73,16 @@ Why a stack?
  
 ---
 
+## ✅ Unit Testing
+
+Unit tests have been added using [xUnit](https://xunit.net/) to ensure correct behavior of all commands.
+
+to create the test project run this command
+
+`dotnet new xunit -n CommandApp.Tests`
+
+---
+
 # 👨‍💻 Author
 
 Antonious Shehata || April 2025
