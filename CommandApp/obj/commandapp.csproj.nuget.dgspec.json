@@ -1,15 +1,15 @@
 {
   "format": 1,
   "restore": {
-    "D:\\EKVIP_APP\\CommandApp\\commandapp.csproj": {}
+    "D:\\EKVIP_APP\\CommandApp\\CommandApp.csproj": {}
   },
   "projects": {
-    "D:\\EKVIP_APP\\CommandApp\\commandapp.csproj": {
+    "D:\\EKVIP_APP\\CommandApp\\CommandApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\EKVIP_APP\\CommandApp\\commandapp.csproj",
-        "projectName": "commandapp",
-        "projectPath": "D:\\EKVIP_APP\\CommandApp\\commandapp.csproj",
+        "projectUniqueName": "D:\\EKVIP_APP\\CommandApp\\CommandApp.csproj",
+        "projectName": "CommandApp",
+        "projectPath": "D:\\EKVIP_APP\\CommandApp\\CommandApp.csproj",
         "packagesPath": "C:\\Users\\anton\\.nuget\\packages\\",
         "outputPath": "D:\\EKVIP_APP\\CommandApp\\obj\\",
         "projectStyle": "PackageReference",
