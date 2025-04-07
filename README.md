@@ -5,6 +5,23 @@ Supports commands like `increment`, `decrement`, `double`, `randadd`, and `undo`
 
 ---
 
+## Technologies Used
+
+- Language: C#
+- Framework: .NET 10.0 (Preview)
+- SDK Version: `10.0.100-preview.2.25164.34`
+- IDE: Visual Studio 2022 / Visual Studio Code
+
+## Getting Started
+
+Make sure the correct .NET SDK is installed on your machine.
+
+```bash
+dotnet --version
+# Expected output: 10.0.100-preview.2.25164.34
+```
+---
+
 ## 🧠 Commands Supported
 
 - `increment` → Adds 1 to the result
@@ -82,7 +99,41 @@ To create the test project run this command
 `dotnet new xunit -n CommandApp.Tests`
 
 ---
+### 🧪 Covered Commands
 
+- `IncrementCommand`  
+  - ✔️ Execute: Increases the value by 1  
+  - 🔁 Undo: Decreases the value by 1
+
+- `DecrementCommand`  
+  - ✔️ Execute: Decreases the value by 1  
+  - 🔁 Undo: Increases the value by 1
+
+- `DoubleCommand`  
+  - ✔️ Execute: Multiplies the value by 2  
+  - 🔁 Undo: Divides the value by 2
+
+- `RandAddCommand`  
+  - ✔️ Execute: Adds a random number to the value  
+  - 🔁 Undo: Subtracts the same random number to restore the original value
+
+### ▶️ Run Tests
+
+To run all unit tests, use the command:
+
+```bash
+cd CommandApp.Tests
+dotnet test
+```
+
+### ✅ Sample Output
+
+```plaintext
+Test summary: total: 8, failed: 0, succeeded: 8, skipped: 0, duration: 3.8s
+Build succeeded with 2 warning(s) in 10.3s
+```
+
+---
 # 👨‍💻 Author
 
 Antonious Shehata || April 2025
